@@ -1,0 +1,9 @@
+*.log
+*.jou
+*.pb
+*.str
+*.wdb
+xsim.dir/
+xsim.covdb/
+xsim.codeCov/
+.Xil/

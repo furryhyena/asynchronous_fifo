@@ -5,90 +5,90 @@
    <db_ref_list>
       <db_ref path="fifo_sim_snapshot.wdb" id="1">
          <top_modules>
-            <top_module name="async_fifo_tb" />
+            <top_module name="terminal_explainer_tb" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="315.401 ns"></ZoomEndTime>
-      <Cursor1Time time="140.000 ns"></Cursor1Time>
+      <ZoomEndTime time="395.549 ns"></ZoomEndTime>
+      <Cursor1Time time="638.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="154"></NameColumnWidth>
-      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="18" />
-   <wvobject type="logic" fp_name="/async_fifo_tb/arst_n">
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/arst_n">
       <obj_property name="ElementShortName">arst_n</obj_property>
       <obj_property name="ObjectShortName">arst_n</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/test_case_name">
-      <obj_property name="ElementShortName">test_case_name[255:0]</obj_property>
-      <obj_property name="ObjectShortName">test_case_name[255:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="divider2" type="divider">
-      <obj_property name="label">Write Domain</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/wr_clk">
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/wr_clk">
       <obj_property name="ElementShortName">wr_clk</obj_property>
       <obj_property name="ObjectShortName">wr_clk</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/wr_en">
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/wr_en">
       <obj_property name="ElementShortName">wr_en</obj_property>
       <obj_property name="ObjectShortName">wr_en</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/wr_data">
+   <wvobject type="array" fp_name="/terminal_explainer_tb/wr_data">
       <obj_property name="ElementShortName">wr_data[31:0]</obj_property>
       <obj_property name="ObjectShortName">wr_data[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/wbin">
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/wbin">
       <obj_property name="ElementShortName">wbin[4:0]</obj_property>
       <obj_property name="ObjectShortName">wbin[4:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/wgray">
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/wgray">
       <obj_property name="ElementShortName">wgray[4:0]</obj_property>
       <obj_property name="ObjectShortName">wgray[4:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/wq2_rgray">
-      <obj_property name="ElementShortName">wq2_rgray[4:0]</obj_property>
-      <obj_property name="ObjectShortName">wq2_rgray[4:0]</obj_property>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/rq1_wgray">
+      <obj_property name="ElementShortName">rq1_wgray[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rq1_wgray[4:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/full">
-      <obj_property name="ElementShortName">full</obj_property>
-      <obj_property name="ObjectShortName">full</obj_property>
-   </wvobject>
-   <wvobject fp_name="divider11" type="divider">
-      <obj_property name="label">Read Domain</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/rd_clk">
-      <obj_property name="ElementShortName">rd_clk</obj_property>
-      <obj_property name="ObjectShortName">rd_clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/rd_en">
-      <obj_property name="ElementShortName">rd_en</obj_property>
-      <obj_property name="ObjectShortName">rd_en</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/rd_data">
-      <obj_property name="ElementShortName">rd_data[31:0]</obj_property>
-      <obj_property name="ObjectShortName">rd_data[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/rbin">
-      <obj_property name="ElementShortName">rbin[4:0]</obj_property>
-      <obj_property name="ObjectShortName">rbin[4:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/rgray">
-      <obj_property name="ElementShortName">rgray[4:0]</obj_property>
-      <obj_property name="ObjectShortName">rgray[4:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/async_fifo_tb/dut/rq2_wgray">
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/rq2_wgray">
       <obj_property name="ElementShortName">rq2_wgray[4:0]</obj_property>
       <obj_property name="ObjectShortName">rq2_wgray[4:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/async_fifo_tb/dut/empty">
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/rd_clk">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/rd_data">
+      <obj_property name="ElementShortName">rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/rbin">
+      <obj_property name="ElementShortName">rbin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rbin[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/rgray">
+      <obj_property name="ElementShortName">rgray[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rgray[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/wq1_rgray">
+      <obj_property name="ElementShortName">wq1_rgray[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wq1_rgray[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/dut/wq2_rgray">
+      <obj_property name="ElementShortName">wq2_rgray[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wq2_rgray[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/terminal_explainer_tb/empty">
       <obj_property name="ElementShortName">empty</obj_property>
       <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/terminal_explainer_tb/WAVEFORM_PHASE">
+      <obj_property name="ElementShortName">WAVEFORM_PHASE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WAVEFORM_PHASE[31:0]</obj_property>
    </wvobject>
 </wave_config>
